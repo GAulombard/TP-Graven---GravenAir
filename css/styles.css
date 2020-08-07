@@ -1,0 +1,147 @@
+* {
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-color: #DBDBD9;
+    margin: 0 auto;
+    color: #DBDBD9;
+}
+
+header {
+    background: url("../images/header-section.jpg") 100% no-repeat fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+}
+
+h1.titre {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+h3.slogan {
+    font-size: 25px;
+    text-transform: lowercase;
+    font-style: italic;
+}
+
+section {
+    padding: 20px;
+}
+
+div.destination-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20% 0px 20%;
+    flex-wrap: wrap;
+}
+
+div.destination-item {
+    color: #373737;
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    position: relative;
+    flex: 1 0 29%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.barcelone {
+    background: url(../images/barcelone.jpg);
+}
+.dubai {
+    background: url(../images/dubai.jpg);
+}
+.philippines {
+    background: url(../images/philippines.jpg);
+}
+.paris {
+    background: url(../images/paris.jpg);
+}
+
+.londres {
+    background: url(../images/londres.jpg);
+}
+.tunis {
+    background: url(../images/tunis.jpg);
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+span.nom {
+    color: #373737;
+    background-color: floralwhite;
+    position: relative;
+    top: 20px;
+    float: right;
+    padding: 12px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+span.prix {
+    position: relative;
+    color: floralwhite;
+    background-color: #EF8F1D;
+    padding: 20px;
+    font-size: 20px;
+    top: 380px;
+}
+
+div.destination-item:hover {
+    transition: 0.2s;
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px black;
+}
+
+
+/* formulaire */
+
+header form {
+    background-color: #EF8F1D;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: floralwhite;
+    margin: 10px;
+}
+
+.form-group input {
+    padding: 2px;
+}
+
+.form-group label {
+    margin: 5px;
+    padding: 10px;
+}
+
+.submit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
